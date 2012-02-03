@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_id_new_album"
+          android:icon="@drawable/icon_menu_album"
+          android:title="@string/txt_new_album"/>
+	<item android:id="@+id/menu_id_capture_picture"
+          android:icon="@drawable/icon_menu_picture"
+          android:title="@string/txt_capture_picture"/>
+	<item android:id="@+id/menu_id_clear_all_data"
+          android:icon="@drawable/icon_menu_clear"
+          android:title="@string/txt_clear_data"/>
+</menu>

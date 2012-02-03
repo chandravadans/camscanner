@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_id_create_pdf"
+          android:icon="@drawable/icon_menu_create_pdf"
+          android:title="@string/txt_create_pdf"/>
+</menu>

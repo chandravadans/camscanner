@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_white">
+    <TextView 
+        android:layout_width="fill_parent"
+    	android:layout_height="52dp"
+    	android:background="@drawable/navigation_bar_top"
+    	android:text="@string/txt_albums"
+    	android:textColor="@color/color_white"
+    	android:textSize="20dp"
+    	android:textStyle="bold"
+    	android:gravity="center"/>
+    <LinearLayout 
+        android:id="@+id/albums_activity_layout_line_repeat"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="52dp">
+	    <ListView 
+	        android:id="@+id/albums_activity_list_view"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:focusable="false" 
+			android:scrollingCache="false"
+			android:fadingEdge="none"
+			android:divider="@drawable/line"
+			android:listSelector="@drawable/empty_bg"
+			android:scrollbarThumbVertical="@drawable/scrollbar_y"
+			android:persistentDrawingCache="animation|scrolling"
+			android:layoutAnimation="@anim/layout_bottom_to_top_slide"/>
+	</LinearLayout>
+</RelativeLayout>

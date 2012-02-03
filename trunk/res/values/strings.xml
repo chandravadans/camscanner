@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- String -->
+    <string name="app_name">CamScanner</string>
+    <string name="txt_albums">Albums</string>
+    <string name="txt_back">Back</string>
+    <string name="txt_rotate">Rotate</string>
+    <string name="txt_crop">Crop</string>
+    <string name="txt_save">Save</string>
+   	<string name="txt_new_album">New album</string>
+    <string name="txt_capture_picture">Capture picture</string>
+    <!-- Message -->
+    <string name="msg_loading">Loading...</string>
+    
+    <!-- Colour -->
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+    <string name="txt_create_pdf">Create PDF</string>
+    <string name="txt_clear_data">Clear all data</string>
+    <string name="txt_capture_more">Data is not found, please capture more picture!</string>
+    <string name="txt_new_picture">New Picture</string>
+    <string name="txt_choose_album">Choose Album</string>
+    <string name="txt_camera">Camera</string>
+    <string name="txt_scanner">Scanner</string>
+    <string name="txt_album_name">Album Name</string>
+    <string name="txt_picture_name">Picture Name</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_crop_title">How to select and crop image</string>
+    <string name="txt_new_album_name">New Album Name</string>
+</resources>
