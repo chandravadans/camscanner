@@ -1,0 +1,1 @@
+Capture image to convert PDF
